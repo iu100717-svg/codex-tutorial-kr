@@ -36,11 +36,10 @@ npm run dev
 
 ## 배포
 
-[Vercel](https://vercel.com)에서 이 저장소를 Import하면 자동으로 배포됩니다.
+[Vercel](https://vercel.com)에 연결되어 있습니다: https://codex-tutorial-kr.vercel.app
+
 Framework Preset은 **Astro** 로 자동 인식되며 별도 설정 없이 `npm run build` 결과(`./dist/`)가
 배포됩니다. `main` 브랜치에 push할 때마다 자동으로 다시 배포됩니다.
-
-배포 후 `astro.config.mjs` 의 `site` 값을 실제 Vercel 도메인(또는 커스텀 도메인)으로 교체하세요.
 
 ## 기여 방법
 

@@ -4,8 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	// TODO:확인 — Vercel 배포 후 실제 도메인으로 교체 (예: https://codex-tutorial-kr.vercel.app 또는 커스텀 도메인)
-	site: 'https://example.vercel.app',
+	site: 'https://codex-tutorial-kr.vercel.app',
 	integrations: [
 		starlight({
 			title: 'Codex 입문 - 코딩 몰라도 웹앱 만들기',
@@ -16,7 +15,7 @@ export default defineConfig({
 					lang: 'ko',
 				},
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/iu100717-svg/codex-tutorial-kr' }],
 			sidebar: [
 				{
 					label: 'Guides',
