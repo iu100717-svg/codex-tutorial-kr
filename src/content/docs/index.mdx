@@ -1,5 +1,37 @@
 ---
-title: "Codex 입문 - 코딩 몰라도 웹앱 만들기"
-description: "스텁 페이지 (본문 미작성)"
+title: "Codex 입문"
+description: "코딩을 몰라도 ChatGPT Codex로 웹앱을 만드는 한국어 튜토리얼"
 template: splash
+hero:
+  title: "코딩 몰라도 웹앱 만들기"
+  tagline: "ChatGPT Codex로 포트폴리오 웹사이트 하나를 처음부터 끝까지 완성하고 배포합니다."
+  actions:
+    - text: "지금 시작하기"
+      link: /start/what-is-codex/
+      icon: right-arrow
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 나에게 맞는 경로 고르기
+
+<CardGrid stagger>
+	<Card title="처음이라면" icon="rocket">
+		터미널도, Git도, Codex도 처음이다.
+		[Codex란 무엇인가](/start/what-is-codex/)부터 순서대로 따라간다.
+	</Card>
+	<Card title="개발 경험이 있다면" icon="setting">
+		코딩은 할 줄 알지만 Codex는 처음이다.
+		개념 설명은 건너뛰고 [Codex 앱 설치](/start/install-app/)부터 시작한다.
+	</Card>
+	<Card title="특정 기능만 필요하다면" icon="magnifier">
+		이미 Codex를 쓰고 있고 특정 기능이 궁금하다.
+		[한 단계 더](/practice/review/) 섹션이나 [프롬프트 레시피집](/reference/prompts/)을 바로 확인한다.
+	</Card>
+</CardGrid>
+
+## 이 사이트로 만드는 것
+
+{/* TODO:확인 — 완성된 포트폴리오 예시 화면을 스크린샷으로 추가할 것 */}
+
+터미널이나 Git 명령어 없이, Codex에게 프롬프트만 보내서 개인 포트폴리오 한 페이지 웹사이트를 만들고 GitHub Pages에 배포합니다. 전체 과정은 [만들어보기](/build/01-plan/) 섹션에서 약 90분 안에 끝낼 수 있도록 구성되어 있습니다.
