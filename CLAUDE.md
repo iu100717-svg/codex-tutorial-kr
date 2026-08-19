@@ -1,7 +1,7 @@
 # codex-tutorial-kr
 
 비전공 학부생을 대상으로 한 ChatGPT Codex 한국어 튜토리얼 사이트.
-Astro Starlight 기반, GitHub Pages로 공개 운영.
+Astro Starlight 기반, Vercel로 공개 운영.
 
 앞으로 이 저장소에서 작업할 때 아래 규칙을 항상 지킬 것.
 
